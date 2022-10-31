@@ -6,19 +6,21 @@ body {
 .logo {
     width: 200px;
     height: auto;
-    margin: 12px;
+    margin: 12px 0 0 52px;
 }
 
 .neckface {
-    width: 500px; 
+    width: 400px; 
     height: auto;
+    box-shadow: 6px 6px #0d151f;
 } 
 
 .header {
     display: flex;
     flex-direction: column;
-    background: #334153;
-    color: white;
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 550px;
 }
 
 .banner {
@@ -31,22 +33,38 @@ body {
 .drop {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin: 100px;
+    gap: 100px;
 }
 
 .description {
     display: flex; 
     flex-direction: column;
-    width: 500px;
+    width: 400px;
+    height: 400px;
+    flex : 1 0 auto;
 }
 
 h1 {
     margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.history {
+    font-size: 18px;
 }
 
 button {
-    width: 92px;
-    padding: 6px 8px;
+    width: 120px;
+    padding: 10px 12px;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F9FAF8;
+    border-radius: 6px 6px 6px 6px;
+    border: 0;
 }
 
 ul {
@@ -60,4 +78,45 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
+}
+
+.image {
+    width: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.info-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.post {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    max-width: 150px;
+}
+
+.text {
+    text-align: center;
+}
+.quote {
+    background-color: #E5E7EB;
 }
