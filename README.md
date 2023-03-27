@@ -13,4 +13,7 @@ Image of post 2 is made by graphist Nhor Phai
 Image of post 3 is made by graphist photo3idea_studio
 
 Image of post 4 is made by graphist Ferifrey
+
 (Images found on https://www.flaticon.com/fr/chercher?word=sneakers&color=gradient&order_by=4)
+ 
+ Live : https://alt-ju.github.io/landing_page/
